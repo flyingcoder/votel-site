@@ -1,0 +1,19 @@
+mutation requestVisa (
+  $name: String!
+  $phone: String!
+  $email: String!
+  $date: Date!
+  $destination: String!
+  $duration: Int!
+  $wilaya: Int!
+) {
+  requestVisa (
+    name: $name
+    phone: $phone
+    email: $email
+    date: $date
+    destination: $destination
+    duration: $duration
+    wilaya: $wilaya
+  )
+}

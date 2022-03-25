@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "votel-site",
+      "script": "yarn",
+      "args": "start",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

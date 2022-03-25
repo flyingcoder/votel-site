@@ -1,0 +1,29 @@
+query destination ( $name: String! ) {
+  destination ( name: $name ) {
+    name
+    displayName
+    image
+
+    vols {
+      name
+      price
+      image
+    }
+
+    hotels {
+      name
+      price
+      image
+    }
+
+    infos {
+      currency
+      locationCode
+      airportDistance
+      exchangeRateBank
+      exchangeRateBlack
+      sandwitch
+      coffee
+    }
+  }
+}

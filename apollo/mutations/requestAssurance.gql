@@ -1,0 +1,17 @@
+mutation requestAssurance (
+  $name: String!
+  $phone: String!
+  $email: String!
+  $date: Date!
+  $duration: Int!
+  $destination: String!
+) {
+  requestAssurance (
+    name: $name
+    phone: $phone
+    email: $email
+    date: $date
+    duration: $duration
+    destination: $destination
+  )
+}

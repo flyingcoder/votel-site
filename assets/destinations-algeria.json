@@ -1,0 +1,170 @@
+[
+  {
+    "code": "ALG",
+    "name": "Alger - Houari Boumediene",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "AAE",
+    "name": "Annaba - Les Salines",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "BJA",
+    "name": "Bejaia",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "BSK",
+    "name": "Biskra",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "BMW",
+    "name": "Bordj Badji Mokhtar - Bordj Badji Mokhta",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "CFK",
+    "name": "Chlef - Abou Bakr Belkaid",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "CZL",
+    "name": "Constantine - Ain El Bey",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "DJG",
+    "name": "Djanet - Inedbirenne",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "ELG",
+    "name": "El Golea",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "ELU",
+    "name": "El Oued",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "GBB",
+    "name": "Gabala Intl",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "GHA",
+    "name": "Ghardaia - Noumerate",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "HME",
+    "name": "Hassi Messaoud - Oued Irara Apt",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "IAM",
+    "name": "In Amenas",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "INZ",
+    "name": "In Salah",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "GJL",
+    "name": "Jijel",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "MZW",
+    "name": "Mechria",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "MQV",
+    "name": "Mostaganem",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "ORN",
+    "name": "Oran",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "QSF",
+    "name": "Setif",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  },
+  {
+    "code": "BFW",
+    "name": "Sidi Belabbes",
+    "country": {
+      "code": "DZ",
+      "name": "Algeria"
+    }
+  }
+]

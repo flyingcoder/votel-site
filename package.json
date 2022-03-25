@@ -1,0 +1,47 @@
+{
+  "name": "votel-site",
+  "version": "1.0.0",
+  "description": "Votel Réservation website",
+  "author": "Zakaria Abdelaziz <zikk.abdelaziz@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "3.0.7",
+    "@nuxtjs/google-tag-manager": "^2.0.0",
+    "apollo-link-http": "^1.5.4",
+    "axios": "^0.18.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "jsonp": "^0.2.1",
+    "lodash": "^4.17.10",
+    "material-design-icons": "^3.0.1",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.21",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^7.0.1",
+    "simple-line-icons": "^2.4.1",
+    "typeface-roboto": "^0.0.54",
+    "vee-validate": "^2.1.0-beta.1",
+    "vue-apollo": "^3.0.0-beta.19",
+    "vuetify": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}

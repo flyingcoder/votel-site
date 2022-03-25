@@ -1,0 +1,17 @@
+mutation requestTelex (
+  $name: String!
+  $phone: String!
+  $email: String!
+  $date: Date!
+  $duration: Int!
+  $destination: String!
+) {
+  requestTelex (
+    name: $name
+    phone: $phone
+    email: $email
+    date: $date
+    duration: $duration
+    destination: $destination
+  )
+}
