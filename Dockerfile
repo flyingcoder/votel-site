@@ -5,7 +5,7 @@ WORKDIR /app
 
 RUN apk update && apk upgrade
 RUN apk --no-cache add --virtual .build-deps build-base python git
-RUN yarn install --silent
+RUN npm install --silent
 RUN apk del .build-deps
 RUN yarn build
 
