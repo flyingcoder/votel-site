@@ -3,7 +3,6 @@
     <div class="footer-content-container">
       <!-- Footer logo -->
       <img src="/images/logox80white.png" class="mx-auto footer-logo" alt="Logo Votel Réservation" />
-
       <!-- Footer content -->
       <div class="footer-content">
         <v-layout wrap>
@@ -76,12 +75,11 @@
           </v-flex>
         </v-layout>
       </div>
-    </div>
-
-    <!-- Footer copyright -->
-    <div xs12 py-3 text-xs-center class="footer-copyright">
+      <div xs12 py-3 text-xs-center class="footer-copyright">
       Copyright {{ currentYear }} Votel. All Rights Reserved.
+      </div>
     </div>
+    <!-- Footer copyright -->
   </v-footer>
 </template>
 
@@ -135,9 +133,10 @@ export default {
 
 .footer-content-container {
   display: block;
-  padding: 5rem 1rem;
+  padding: 5rem 1rem 0;
   width: 100%;
   text-align: center;
+  background:#252525;
 
   .footer-logo {
     -webkit-user-drag: none;
@@ -223,7 +222,7 @@ export default {
 .footer-copyright {
   width: 100%;
   text-align: center;
-  padding: 2rem 0;
+  padding: 7rem 0 2rem;
   background-color: #252525;
   font-family: Roboto;
   font-size: 20px;

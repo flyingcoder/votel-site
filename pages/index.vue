@@ -2,6 +2,7 @@
   <div>
     <home-page-header />
     <how-it-works />
+    <packages />
     <top-destinations />
     <about />
     <feedback />
@@ -12,6 +13,7 @@
 import HomePageHeader from '@/components/homepage/Header'
 import HowItWorks from '@/components/homepage/HowItWorks'
 import TopDestinations from '@/components/homepage/TopDestinations'
+import Packages from '@/components/homepage/Packages'
 import About from '@/components/homepage/About'
 import FeedBack from '@/components/homepage/Feedback'
 
@@ -21,8 +23,10 @@ export default {
     HomePageHeader,
     HowItWorks,
     TopDestinations,
+    Packages,
     'about': About,
     'feedback': FeedBack
+    
   }
 }
 </script>
