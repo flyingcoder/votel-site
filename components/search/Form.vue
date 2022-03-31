@@ -374,6 +374,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.submit-button-container font {
+    color: white !important;
+}
+.search-form button.v-btn.v-btn--flat.theme--light.is-active {
+    background-color: #2ac1fe;
+    padding: 24px;
+    margin: 0px;
+    color: white;
+}
+.search-form button.v-btn.v-btn--flat.theme--light{
+  padding: 24px;
+  margin: 0px;
+}
 .search-form {
   position: relative;
   min-height: 150px;

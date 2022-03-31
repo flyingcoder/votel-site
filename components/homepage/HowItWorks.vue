@@ -34,6 +34,9 @@
           <img src="/icons/homepage/shipped.png" class="mx-auto" alt="Icone livraison">
         </div>
       </v-flex>
+      <div class="divider-c">
+        <div class="divider-c-s"></div>
+      </div>
     </v-layout>
   </div>
 </template>
@@ -45,10 +48,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .hiw-container {
   background-color: #fff;
   padding: 4rem 0;
 
+  @media screen and (min-width: 901px) {
+      .flex.text-xs-center.step-container.md4 {
+      position: relative;
+      z-index: 1;
+      }
+      .divider-c-s {
+          border: 8px dotted #e8edf2;
+          border-top: 0px;
+          width: 65%;
+          margin: auto;
+      }
+      .divider-c {
+        width: 100%;
+        position: relative;
+        bottom: 26px;
+        top: -75px;
+        left: 0;
+        right: 0px;
+        z-index: 0;
+      }
+  }
+  @media screen and (max-width: 900px) {
+    .divider-c {
+      display: none !important;
+    }
+  }
   @media screen and (max-width: 960px) {
     padding-top: 160px;
   }

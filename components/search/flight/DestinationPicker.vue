@@ -1,6 +1,7 @@
 <template>
    <v-select
     class="destination-picker"
+    outlined
     :search-input.sync="search"
     :items="items"
     v-model="destination"
@@ -99,6 +100,54 @@ export default {
 
 
 <style lang="scss">
+  .search-inputs .v-input__icon.v-input__icon-- {
+      display: none;
+  }
+  .search-form .datepicker {
+      max-width: 100% !important;
+  }
+  .search-form {
+    max-width: 86% !important;
+    margin: auto !important;
+  }
+  .search-container input[type="text"]::placeholder {
+      color: #3c5065 !important;
+  }
+  .search-container font {
+      color: #a6b1c2 !important;
+  }
+  .search-form .search-inputs-container .datepicker[data-v-64233180] input,
+  .classpicker input {
+      margin-left: 0rem !important;
+  }
+  .search-inputs .v-input__slot::before {
+      border-style: none !important;
+  }
+  .search-inputs .v-input--is-focused .v-input__slot::before {
+      width: 0px !important;
+  }
+    .search-container .submit-button-container {
+    background: #2ac1fe;
+    border-radius: 3.5px;
+    height: 44px;
+    margin: 6px 0px !important;
+  }
+  .search-inputs .v-input.destination-picker.destination-input.v-text-field.v-text-field--placeholder.v-select.v-autocomplete.theme--light,
+  .search-inputs .datepicker-container .v-input.v-text-field.v-text-field--placeholder.v-input--is-readonly.theme--light,
+  .search-inputs .v-menu .v-input.v-text-field.v-input--is-label-active.v-input--is-dirty.v-input--is-readonly.theme--light {
+      display: flex;
+      border: solid #dce1ea;
+      border-radius: 3.5px;
+      border-width: thin;
+      padding: 5px 20px;
+      margin-top: 0px;
+  }
+  .search-inputs .v-text-field__details {
+    display: none;
+  }
+  .search-inputs .v-input__slot {
+    margin: 0px;
+  }
   .menu__content--autocomplete {
     border-radius: 4px;
 
