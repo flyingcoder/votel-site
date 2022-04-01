@@ -79,7 +79,7 @@ export default {
       destinations: {
         egypt: { title: 'Egypt ', image: 'egypt.jpeg' },
         sahara: { title: 'Sahara', image: 'sahara.jpg' },
-        Tunisie : { title: 'Tunisie ', image: 'tunisia.jpg' },
+        Tunisie: { title: 'Tunisie', image: 'tunisia.jpg' },
         dubai: { title: 'Dubaï', image: 'dubai.jpeg' },
         turkey: { title: 'Turkey', image: 'turkey.jpg' },
         istanbul: { title: 'Istanbul', image: 'istanbul.png' },

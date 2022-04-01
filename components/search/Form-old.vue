@@ -1,6 +1,6 @@
 <template>
   <div class="search-form">
-    <form :action="searchType === 'flight' ? volsUrl : hotelsUrl" method="GET" @submit.prevent="submitForm">
+    <form :action="searchType === 'flight' ? volsUrl : hotelsUrl" method="GET">
       <v-layout wrap class="header">
         <!-- Search type -->
         <v-flex sm5 xs12 class="search-type">
@@ -68,7 +68,6 @@
 
               <!-- Destination arrivée -->
               <flight-destination-picker
-                alg
                 type="arr"
                 class="destination-input"
                 v-model="flights[0].destination"
@@ -235,7 +234,6 @@ import FlightClassPicker from '@/components/search/flight/ClassPicker'
 import HotelDestinationPicker from '@/components/search/hotel/DestinationPicker'
 import HotelClassPicker from '@/components/search/hotel/ClassPicker'
 import moment from 'moment'
-import axios from 'axios'
 
 const MAX_FLIGHTS = 3
 const FLIGHTS_SEARCH_URL = 'https://vols.votel-dz.com/search-bc/index.html'
@@ -335,25 +333,6 @@ export default {
   },
 
   methods: {
-    submitForm (e) {
-      var arrInput = e.target.getElementsByTagName('input')
-      var data = []
-      for (var i = 0; i < arrInput.length; i++) {
-        var nam = arrInput[i].name
-        var val = arrInput[i].value
-        data.push({
-          name: nam,
-          value: val
-        })
-      }
-      console.log(data)
-      axios.post('/mail/send', {
-        from: 'John Doe',
-        subject: 'Incredible',
-        text: 'This is an incredible test message',
-        to: 'aepacot2016@gmail.com'
-      })
-    },
     toggleSearchType (type) {
       this.searchType = type
     },

@@ -26,7 +26,6 @@ export default {
     Packages,
     'about': About,
     'feedback': FeedBack
-    
   }
 }
 </script>

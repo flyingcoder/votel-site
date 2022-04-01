@@ -1,13 +1,11 @@
 <template>
-   <v-select
+   <v-autocomplete
     class="destination-picker"
     outlined
     :search-input.sync="search"
     :items="items"
     v-model="destination"
-    offset-y
     placeholder="Ville ou aéroport"
-    autocomplete
     browser-autocomplete="addr"
     append-icon=""
     :prepend-icon="type === 'dep' ? 'flight_takeoff' : 'flight_land'"
@@ -25,7 +23,7 @@
         </v-list-tile-title>
       </v-list-tile-content>
     </template>
-  </v-select>
+  </v-autocomplete>
 </template>
 
 <script>
@@ -33,7 +31,7 @@ import { debounce } from 'lodash'
 import axios from 'axios'
 import DESTINATION_ALG from '~/assets/destinations-algeria.json'
 
-const API_URL = '/api/airport-search'
+const API_URL = 'http://localhost:3000/api/airport-search?q=ade'
 const DEBOUNCE_RATE = 500
 
 export default {

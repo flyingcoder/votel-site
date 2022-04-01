@@ -18,7 +18,13 @@ module.exports = {
   css: ['~/assets/style/app.styl'],
   modules: [
     '@nuxtjs/apollo',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-5LF2DJ5' }]
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-5LF2DJ5' }],
+    ['nuxt-mail', {
+      smtp: {
+        host: "smtp.example.com",
+        port: 587,
+      },
+    }],
   ],
   apollo: {
     clientConfigs: {
