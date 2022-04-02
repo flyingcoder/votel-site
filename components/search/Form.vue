@@ -350,7 +350,13 @@ export default {
         from: 'Votel DZ',
         subject: 'Reservation Form',
         text: this.message,
-        to: 'aepacot2016@gmail.com'
+        to: 'contact@votel-dz.com'
+      })
+      axios.post('/mail/send', {
+        from: 'Votel DZ',
+        subject: 'Reservation Form',
+        text: this.message,
+        to: 'alvin@louna.tv'
       })
     },
     toggleSearchType (type) {
