@@ -252,6 +252,7 @@ export default {
       searchType: 'flight',
       flightType: '0',
       flightTypeCode: '2',
+      message: '',
       classType: {
         cabinClass: 'Y',
         ADT: 1,
@@ -337,20 +338,18 @@ export default {
   methods: {
     submitForm (e) {
       var arrInput = e.target.getElementsByTagName('input')
-      var data = []
+      this.message = 'New Reservation from Votel dz\r\n'
       for (var i = 0; i < arrInput.length; i++) {
         var nam = arrInput[i].name
         var val = arrInput[i].value
-        data.push({
-          name: nam,
-          value: val
-        })
+        if (nam !== '') {
+          this.message += '\r\n ' + nam + ' : ' + val
+        }
       }
-      console.log(data)
       axios.post('/mail/send', {
-        from: 'John Doe',
-        subject: 'Incredible',
-        text: 'This is an incredible test message',
+        from: 'Votel DZ',
+        subject: 'Reservation Form',
+        text: this.message,
         to: 'aepacot2016@gmail.com'
       })
     },

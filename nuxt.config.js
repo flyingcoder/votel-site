@@ -21,8 +21,12 @@ module.exports = {
     ['@nuxtjs/google-tag-manager', { id: 'GTM-5LF2DJ5' }],
     ['nuxt-mail', {
       smtp: {
-        host: "smtp.example.com",
+        host: "smtp.mailgun.org",
         port: 587,
+        auth: {
+          user: 'postmaster@mg.votel-dz.com',
+          pass: 'c06cd89aeb77a85089d1c4e636795880-62916a6c-b4bff2ae'
+        }
       },
     }],
   ],
